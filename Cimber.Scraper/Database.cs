@@ -80,7 +80,7 @@ namespace Cimber.Scraper
                         {
                             if (film.Players.Contains(p) == false)
                             {
-                                film.Players.Append(p);
+                                film.Players.Add(p);
                             }
                         }
                         var newFilmPlayers = JsonConvert.SerializeObject(film.Players);
