@@ -1,0 +1,12 @@
+2022-12-20 14:18:03,384 [1] ERROR LOGGER - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Cimber.Scraper.Scrapers.KinogoScraper.getFilm(String url) in D:\Dev\Cimber\Cimber.Scraper\Scrapers\KinogoScraper.cs:line 53
+2022-12-20 14:18:26,690 [1] ERROR LOGGER - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Cimber.Scraper.Scrapers.KinogoScraper.getFilm(String url) in D:\Dev\Cimber\Cimber.Scraper\Scrapers\KinogoScraper.cs:line 109
+2022-12-20 14:18:28,347 [1] ERROR LOGGER - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Cimber.Scraper.Scrapers.KinogoScraper.getFilm(String url) in D:\Dev\Cimber\Cimber.Scraper\Scrapers\KinogoScraper.cs:line 109
+2022-12-20 14:18:34,066 [1] ERROR LOGGER - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Cimber.Scraper.Scrapers.KinogoScraper.getFilm(String url) in D:\Dev\Cimber\Cimber.Scraper\Scrapers\KinogoScraper.cs:line 109
+2022-12-20 14:18:39,679 [1] ERROR LOGGER - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Cimber.Scraper.Scrapers.KinogoScraper.getFilm(String url) in D:\Dev\Cimber\Cimber.Scraper\Scrapers\KinogoScraper.cs:line 109
+2022-12-20 14:18:59,773 [1] ERROR LOGGER - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Cimber.Scraper.Scrapers.KinogoScraper.getFilm(String url) in D:\Dev\Cimber\Cimber.Scraper\Scrapers\KinogoScraper.cs:line 109

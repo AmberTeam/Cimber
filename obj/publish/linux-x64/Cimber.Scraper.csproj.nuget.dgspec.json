@@ -1,0 +1,104 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Dev\\Cimber\\Cimber.Scraper\\Cimber.Scraper.csproj": {}
+  },
+  "projects": {
+    "D:\\Dev\\Cimber\\Cimber.Scraper\\Cimber.Scraper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Dev\\Cimber\\Cimber.Scraper\\Cimber.Scraper.csproj",
+        "projectName": "Cimber.Scraper",
+        "projectPath": "D:\\Dev\\Cimber\\Cimber.Scraper\\Cimber.Scraper.csproj",
+        "packagesPath": "C:\\Users\\uaquax\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\Cimber\\Cimber.Scraper\\obj\\publish\\linux-x64\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\uaquax\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.46, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "ShellProgressBar": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.117, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "ilmerge": {
+              "target": "Package",
+              "version": "[3.0.29, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.12, 6.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

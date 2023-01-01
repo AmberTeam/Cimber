@@ -1,0 +1,2 @@
+D:\Dev\Cimber\Cimber.Scraper\bin\Release\CimberParser\Cimber.Scraper.pdb
+D:\Dev\Cimber\Cimber.Scraper\bin\Release\CimberParser\Cimber.Scraper

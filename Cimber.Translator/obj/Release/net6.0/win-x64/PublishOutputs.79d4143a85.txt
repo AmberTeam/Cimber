@@ -1,0 +1,3 @@
+D:\Dev\Cimber\Cimber.Translator\Realeses\v1.0.1\Cimber.Translator.pdb
+D:\Dev\Cimber\Cimber.Translator\Realeses\v1.0.1\log4net.config
+D:\Dev\Cimber\Cimber.Translator\Realeses\v1.0.1\Cimber.Translator.exe

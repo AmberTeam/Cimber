@@ -1,0 +1,225 @@
+2022-12-20 14:26:05,235 [1] WARN LOGGER - code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+table films already exists
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at Cimber.Scraper.Database..ctor() in D:\Dev\Cimber\Cimber.Scraper\Database.cs:line 35
+2022-12-20 14:27:18,404 [1] WARN LOGGER - code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+table films already exists
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at Cimber.Scraper.Database..ctor() in D:\Dev\Cimber\Cimber.Scraper\Database.cs:line 35
+2022-12-20 14:27:44,521 [1] ERROR LOGGER - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Cimber.Scraper.Scrapers.KinogoScraper.getFilm(String url) in D:\Dev\Cimber\Cimber.Scraper\Scrapers\KinogoScraper.cs:line 70
+2022-12-20 14:28:01,687 [1] ERROR LOGGER - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Cimber.Scraper.Scrapers.KinogoScraper.getFilm(String url) in D:\Dev\Cimber\Cimber.Scraper\Scrapers\KinogoScraper.cs:line 70
+2022-12-20 14:28:03,375 [1] ERROR LOGGER - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Cimber.Scraper.Scrapers.KinogoScraper.getFilm(String url) in D:\Dev\Cimber\Cimber.Scraper\Scrapers\KinogoScraper.cs:line 70
+2022-12-20 14:28:08,888 [1] ERROR LOGGER - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Cimber.Scraper.Scrapers.KinogoScraper.getFilm(String url) in D:\Dev\Cimber\Cimber.Scraper\Scrapers\KinogoScraper.cs:line 70
+2022-12-20 14:28:15,158 [1] ERROR LOGGER - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Cimber.Scraper.Scrapers.KinogoScraper.getFilm(String url) in D:\Dev\Cimber\Cimber.Scraper\Scrapers\KinogoScraper.cs:line 70
+2022-12-20 14:28:36,823 [1] ERROR LOGGER - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Cimber.Scraper.Scrapers.KinogoScraper.getFilm(String url) in D:\Dev\Cimber\Cimber.Scraper\Scrapers\KinogoScraper.cs:line 70
+2022-12-20 14:29:02,582 [1] WARN LOGGER - code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+table films already exists
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at Cimber.Scraper.Database..ctor() in D:\Dev\Cimber\Cimber.Scraper\Database.cs:line 35
+2022-12-20 14:32:34,932 [1] WARN LOGGER - code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+table films already exists
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at Cimber.Scraper.Database..ctor() in D:\Dev\Cimber\Cimber.Scraper\Database.cs:line 35
+2022-12-20 16:20:36,722 [1] WARN LOGGER - code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+table films already exists
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at Cimber.Scraper.Database..ctor() in D:\Dev\Cimber\Cimber.Scraper\Database.cs:line 35
+2022-12-20 16:22:49,093 [1] ERROR LOGGER - System.Net.WebException: The SSL connection could not be established, see inner exception.
+ ---> System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at HtmlAgilityPack.HtmlWeb.Get(Uri uri, String method, String path, HtmlDocument doc, IWebProxy proxy, ICredentials creds)
+   at HtmlAgilityPack.HtmlWeb.Load(Uri uri, String method)
+   at Cimber.Scraper.Scrapers.BaseScraper.getDocument(String url) in D:\Dev\Cimber\Cimber.Scraper\Scrapers\BaseScraper.cs:line 22
+   at Cimber.Scraper.Scrapers.KinogoScraper.getFilm(String url) in D:\Dev\Cimber\Cimber.Scraper\Scrapers\KinogoScraper.cs:line 51
+2022-12-20 16:22:49,154 [1] ERROR LOGGER - System.Net.WebException: The SSL connection could not be established, see inner exception.
+ ---> System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at HtmlAgilityPack.HtmlWeb.Get(Uri uri, String method, String path, HtmlDocument doc, IWebProxy proxy, ICredentials creds)
+   at HtmlAgilityPack.HtmlWeb.Load(Uri uri, String method)
+   at Cimber.Scraper.Scrapers.BaseScraper.getDocument(String url) in D:\Dev\Cimber\Cimber.Scraper\Scrapers\BaseScraper.cs:line 22
+   at Cimber.Scraper.Scrapers.KinogoScraper.getFilm(String url) in D:\Dev\Cimber\Cimber.Scraper\Scrapers\KinogoScraper.cs:line 51
+2022-12-20 16:22:49,210 [1] ERROR LOGGER - System.Net.WebException: The SSL connection could not be established, see inner exception.
+ ---> System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at HtmlAgilityPack.HtmlWeb.Get(Uri uri, String method, String path, HtmlDocument doc, IWebProxy proxy, ICredentials creds)
+   at HtmlAgilityPack.HtmlWeb.Load(Uri uri, String method)
+   at Cimber.Scraper.Scrapers.BaseScraper.getDocument(String url) in D:\Dev\Cimber\Cimber.Scraper\Scrapers\BaseScraper.cs:line 22
+   at Cimber.Scraper.Scrapers.KinogoScraper.getFilm(String url) in D:\Dev\Cimber\Cimber.Scraper\Scrapers\KinogoScraper.cs:line 51
+2022-12-20 16:22:49,285 [1] ERROR LOGGER - System.Net.WebException: The SSL connection could not be established, see inner exception.
+ ---> System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at HtmlAgilityPack.HtmlWeb.Get(Uri uri, String method, String path, HtmlDocument doc, IWebProxy proxy, ICredentials creds)
+   at HtmlAgilityPack.HtmlWeb.Load(Uri uri, String method)
+   at Cimber.Scraper.Scrapers.BaseScraper.getDocument(String url) in D:\Dev\Cimber\Cimber.Scraper\Scrapers\BaseScraper.cs:line 22
+   at Cimber.Scraper.Scrapers.KinogoScraper.getFilm(String url) in D:\Dev\Cimber\Cimber.Scraper\Scrapers\KinogoScraper.cs:line 51
+2023-01-01 21:41:00,968 [1] WARN LOGGER - code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+table films already exists
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at Cimber.Scraper.Database..ctor() in /home/uaquax/Dev/Projects/Cimber/Cimber.Scraper/Database.cs:line 35
+2023-01-01 21:41:03,092 [1] WARN LOGGER - code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+table films already exists
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at Cimber.Scraper.Database..ctor() in /home/uaquax/Dev/Projects/Cimber/Cimber.Scraper/Database.cs:line 35
