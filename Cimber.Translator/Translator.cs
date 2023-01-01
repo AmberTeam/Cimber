@@ -13,7 +13,6 @@ namespace Cimber.Translator
         {
             _language = langauge;
             _database = new Database(path, name);
-            RequirementsChecker.Init();
         }
 
         public void Start()
@@ -79,6 +78,9 @@ namespace Cimber.Translator
                                 film.Description
                             );
 
+                            if (enName == null || description == null)
+                                return;
+
                             _database.AddEnglishFilm(
                                 new Film(
                                     enName,
@@ -93,6 +95,7 @@ namespace Cimber.Translator
                                     Language.English
                                 )
                             );
+                            pbar.Tick($"Last film: {enName ?? "Unknown"}({film.Id})");
                         }
                     }
                 }

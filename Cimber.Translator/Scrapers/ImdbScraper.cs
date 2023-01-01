@@ -25,11 +25,11 @@ namespace Cimber.Translator.Scrapers
             }
         }
 
-        public string GetEnglishDescription(string name)
+        public string? GetEnglishDescription(string name)
         {
             try
             {
-                string link = getLink(name);
+                string link = getLink(name)!;
                 var document = getDocument(link)?.DocumentNode;
                 var description = document!
                     .SelectSingleNode(".//span[@data-testid=\"plot-xl\"]")
@@ -43,7 +43,7 @@ namespace Cimber.Translator.Scrapers
             }
         }
 
-        private string getLink(string name)
+        private string? getLink(string name)
         {
             try
             {
@@ -62,7 +62,7 @@ namespace Cimber.Translator.Scrapers
             }
         }
 
-        public Film GetEnglishFilm(Film film)
+        public Film? GetEnglishFilm(Film film)
         {
             try
             {
