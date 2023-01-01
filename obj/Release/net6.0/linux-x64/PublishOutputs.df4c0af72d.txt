@@ -1,3 +1,0 @@
-D:\Dev\Cimber\Cimber.Scraper\Realeses\v1.0.1\Cimber.Scraper.pdb
-D:\Dev\Cimber\Cimber.Scraper\Realeses\v1.0.1\log4net.config
-D:\Dev\Cimber\Cimber.Scraper\Realeses\v1.0.1\Cimber.Scraper
