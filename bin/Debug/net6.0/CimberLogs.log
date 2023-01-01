@@ -201,25 +201,3 @@ table films already exists
    at HtmlAgilityPack.HtmlWeb.Load(Uri uri, String method)
    at Cimber.Scraper.Scrapers.BaseScraper.getDocument(String url) in D:\Dev\Cimber\Cimber.Scraper\Scrapers\BaseScraper.cs:line 22
    at Cimber.Scraper.Scrapers.KinogoScraper.getFilm(String url) in D:\Dev\Cimber\Cimber.Scraper\Scrapers\KinogoScraper.cs:line 51
-2023-01-01 21:41:00,968 [1] WARN LOGGER - code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
-table films already exists
-   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
-   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
-   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
-   at System.Data.SQLite.SQLiteDataReader.NextResult()
-   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
-   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
-   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
-   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
-   at Cimber.Scraper.Database..ctor() in /home/uaquax/Dev/Projects/Cimber/Cimber.Scraper/Database.cs:line 35
-2023-01-01 21:41:03,092 [1] WARN LOGGER - code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
-table films already exists
-   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
-   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
-   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
-   at System.Data.SQLite.SQLiteDataReader.NextResult()
-   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
-   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
-   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
-   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
-   at Cimber.Scraper.Database..ctor() in /home/uaquax/Dev/Projects/Cimber/Cimber.Scraper/Database.cs:line 35

@@ -1,3 +1,0 @@
-/home/uaquax/Dev/Projects/Cimber/Cimber.Translator/Realeses/v1.0.2/Cimber.Translator.pdb
-/home/uaquax/Dev/Projects/Cimber/Cimber.Translator/Realeses/v1.0.2/log4net.config
-/home/uaquax/Dev/Projects/Cimber/Cimber.Translator/Realeses/v1.0.2/Cimber.Translator
