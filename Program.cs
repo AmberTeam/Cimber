@@ -6,7 +6,7 @@ const string LOGO =
 
 Console.WriteLine(LOGO);
 Console.Write(
-    "Please choose a website to scrape:\n1 - Gidonline\n2 - Kinogo\n3 - Kinokrad\n4 - Kinoprofi\n-> "
+    "Please choose a website to scrape:\n1 - Gidonline (RU)\n2 - Kinogo (RU)\n3 - Kinokrad (RU)\n4 - Kinoprofi (RU)\n5 - Uakino (UA)\n6 - Uakinogo (UA)\n7 - Uafilm (UA)\n-> "
 );
 var website = Console.ReadLine();
 Scraper scraper;
@@ -27,19 +27,23 @@ else if (website!.Contains("4"))
 {
     scraper = new Scraper(Website.KINOPROFI);
 }
+else if (website!.Contains("5"))
+{
+    scraper = new Scraper(Website.UAKINO);
+}
+else if (website!.Contains("6"))
+{
+    scraper = new Scraper(Website.UAKINOGO);
+}
+else if (website!.Contains("7"))
+{
+    scraper = new Scraper(Website.UAFILM);
+}
 else
 {
     scraper = new Scraper(Website.GIDONLINE);
 }
 
-var watch = new System.Diagnostics.Stopwatch();
-watch.Start();
-
 Logger.InitLogger();
 scraper.Start();
-
-watch.Stop();
-Console.WriteLine(
-    $"Execution Time: {watch.Elapsed.Hours} hours and {watch.Elapsed.Minutes} minutes"
-);
 Console.ReadLine();

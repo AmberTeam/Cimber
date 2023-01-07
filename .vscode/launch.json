@@ -8,10 +8,10 @@
             "name": ".NET Core Launch (console)",
             "type": "coreclr",
             "request": "launch","preLaunchTask": "build",
-            "program": "${workspaceFolder}/Cimber.Translator/bin/Debug/net6.0/Cimber.Translator.dll",
+            "program": "${workspaceFolder}/bin/Debug/net6.0/Cimber.Scraper.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
-            "console": "internalConsole",
+            "console": "externalTerminal",
             "stopAtEntry": false
         },
         {

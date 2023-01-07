@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Cimber.Scraper/Cimber.Scraper.csproj",
+                "${workspaceFolder}/Cimber.Scraper.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],

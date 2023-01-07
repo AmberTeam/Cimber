@@ -34,6 +34,16 @@ namespace Cimber.Scraper
                 KinoprofiScraper scraper = new KinoprofiScraper();
                 scraper.Start();
             }
+            else if (_website == Website.UAKINOGO)
+            {
+
+            }
+            else if (_website == Website.UAFILM)
+            {
+            }
+            else if (_website == Website.UAKINO)
+            {
+            }
         }
     }
 }
