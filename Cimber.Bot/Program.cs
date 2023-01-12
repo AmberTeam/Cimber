@@ -16,7 +16,12 @@ List<long> AdminList = new List<long>()
     1495480119
 };
 var database = new Database();
+string BUG_PATH = Directory.GetCurrentDirectory() + (Environment.OSVersion.Platform == PlatformID.Win32NT ? @"\Materials\bug.jpg" : @"/Materials/bug.jpg");
+string SCARED_PATH = Directory.GetCurrentDirectory() + (Environment.OSVersion.Platform == PlatformID.Win32NT ? @"\Materials\scared.webp" : @"/Materials/scared.webp");
+string START_PATH = Directory.GetCurrentDirectory() + (Environment.OSVersion.Platform == PlatformID.Win32NT ? @"\Materials\start.jpg" : @"/Materials/start.jpg");
+string WAIT_PATH = Directory.GetCurrentDirectory() + (Environment.OSVersion.Platform == PlatformID.Win32NT ? @"\Materials\wait.webp" : @"/Materials/wait.webp");
 
+Console.WriteLine(BUG_PATH);
 var bot = new TelegramBotClient(token);
 bot.StartReceiving(Update, Error);
 
@@ -37,7 +42,7 @@ async Task Update(ITelegramBotClient client, Update update, CancellationToken to
                     case MessageType.Text:
                         switch (message.Text)
                         {
-                            case "/start":
+                            case " / start":
                                 await bot.SendPhotoAsync(message.Chat.Id, "https://media2.giphy.com/media/kR7nX5EfyoxPy/giphy.gif?cid=790b76114d73d2c084c4ffdb46f9f0f174f249263ff8993b&rid=giphy.gif&ct=g", caption: "Hi, welcome to Cimber Bot🍿! There you can easily submit bugs to us. Choose an action below:", replyMarkup: Markups.MainMenuEngUser);
 
                                 break;
@@ -221,7 +226,7 @@ async Task Update(ITelegramBotClient client, Update update, CancellationToken to
 
 async Task SendABugMessage(Message message)
 {
-    await using Stream stream = System.IO.File.OpenRead(Directory.GetCurrentDirectory() + "\\Materials\\bug.jpg");
+    await using Stream stream = System.IO.File.OpenRead(BUG_PATH);
 
     await bot.SendPhotoAsync(message.Chat.Id, new InputOnlineFile(content: stream), caption: "Please send a bug description with a photo or file(in one message) here:", replyMarkup: Markups.MainMenuEngAdmin);
 
@@ -229,7 +234,7 @@ async Task SendABugMessage(Message message)
 
 async Task StartMessage(Message message)
 {
-    await using Stream stream = System.IO.File.OpenRead(Directory.GetCurrentDirectory() + "\\Materials\\start.jpg");
+    await using Stream stream = System.IO.File.OpenRead(START_PATH);
 
     await bot.SendPhotoAsync(message.Chat.Id, new InputOnlineFile(content: stream), caption: "Hi, welcome to Cimber Bot🍿! There you can easily submit bugs to us. Choose an action below:", replyMarkup: Markups.MainMenuEngAdmin);
 }
@@ -241,7 +246,7 @@ async Task Error(ITelegramBotClient client, Exception exception, CancellationTok
 
 async Task SendToAdmins(string text)
 {
-    await using Stream stream = System.IO.File.OpenRead(Directory.GetCurrentDirectory() + "\\Materials\\scared.webp");
+    await using Stream stream = System.IO.File.OpenRead(SCARED_PATH);
 
     foreach (var admin in AdminList)
     {
@@ -251,7 +256,7 @@ async Task SendToAdmins(string text)
 
 async Task SendThanks(Message message, bool isAdmin = false)
 {
-    await using Stream stream = System.IO.File.OpenRead(Directory.GetCurrentDirectory() + "\\Materials\\wait.webp");
+    await using Stream stream = System.IO.File.OpenRead(WAIT_PATH);
 
     if (isAdmin)
     {
