@@ -21,7 +21,6 @@ string SCARED_PATH = Directory.GetCurrentDirectory() + (Environment.OSVersion.Pl
 string START_PATH = Directory.GetCurrentDirectory() + (Environment.OSVersion.Platform == PlatformID.Win32NT ? @"\Materials\start.jpg" : @"/Materials/start.jpg");
 string WAIT_PATH = Directory.GetCurrentDirectory() + (Environment.OSVersion.Platform == PlatformID.Win32NT ? @"\Materials\wait.webp" : @"/Materials/wait.webp");
 
-Console.WriteLine(BUG_PATH);
 var bot = new TelegramBotClient(token);
 bot.StartReceiving(Update, Error);
 
