@@ -128,9 +128,9 @@ namespace Cimber.Bot
                         string description = reader.GetString(1);
                         int? type = reader.GetInt32(2);
                         long? fromUser = reader.GetInt32(3);
-                        string path = reader.GetString(4);
+                        var path = reader.GetValue(4);
 
-                        bug = new Bug() { Id = id, FromUser = fromUser, Description = description, Type = (Models.Type)type, Path = path };
+                        bug = new Bug() { Id = id, FromUser = fromUser, Description = description, Type = (Models.Type)type, Path = path.ToString() };
                     }
                     catch (Exception ex)
                     {

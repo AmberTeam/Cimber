@@ -5,6 +5,7 @@
         Text,
         Photo,
         Video,
-        Document
+        Document,
+        Other
     }
 }
